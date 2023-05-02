@@ -1,0 +1,111 @@
+*
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.content
+{
+  background-color: #E9E9E3;
+  height: 1300px;
+  width: 1400px;
+  display: flex;
+  align-self: center;
+  margin: 0 auto;
+  font-family: Montserrat-Regular;
+}
+
+.menu_text
+{
+  font-weight: 700;
+  font-size: 16px;
+  color: #6F6F64;
+}
+
+.menu_desc
+{
+  font-weight: 400;
+  font-size: 26px;
+  color: #6F6F64;
+  max-width: 479px;
+  margin-top: 17px;
+}
+
+.blc_txt
+{
+  padding: 120px 0 0 56px;
+}
+
+.blc_but
+{
+  padding: 0 0 0 56px;
+  margin-top: 62px;
+}
+
+.cl
+{
+  width: 440px;
+  height: 58px;
+  margin-top: 12px;
+  background-color: transparent;
+  border: 2px solid #6F6F64;
+  font-family: Montserrat-Regular;
+}
+
+.food_but
+{
+  background-color: #6F6F64;
+  border: 2px solid #6F6F64;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.drink_but
+{
+  background-color: #6F6F64;
+  border: 2px solid #6F6F64;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.take_but
+{
+  background-color: #6F6F64;
+  border: 2px solid #6F6F64;
+  border-radius: 0px;
+  color: #fff;
+}
+
+.pic img
+{
+  max-width: 664px;
+  max-height: 1037px;
+}
+
+.blc_img_2
+{
+  display: none;
+}
+
+.blc_img_3
+{
+  display: none;
+}
+
+.pic
+{
+  padding-top: 120px;
+}
+
+button:hover
+{
+  cursor: pointer;
+  transition: 0.5s linear;
+}
+
+@font-face 
+{
+	font-family: Montserrat-Regular; 
+	src: url(../fonts/Montserrat-Regular.ttf);
+}
